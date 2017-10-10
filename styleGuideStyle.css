@@ -1,0 +1,58 @@
+*{
+  font-family: 'Indie Flower', cursive;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/StyleGuideBack.jpg");
+
+}
+h1{
+  color: black;
+  margin: 0;
+  text-align: center;
+  font-size: 70px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #4ED05B,
+  0 0 30px #4ED05B, 0 0 40px #4ED05B, 0 0 55px #4ED05B, 0 0 75px #4ED05B;
+  padding-top: 100px;
+}
+#parent {
+
+
+  top: 0;
+  display:flex;
+  padding: 10vh;
+  justify-content: space-around;
+
+}
+.child1 {
+  max-width: 60vh;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#rest {
+
+   margin-bottom: 70px;
+   max-width: 145vh;
+
+   bottom: 35px;
+   line-height: 30px;
+   font-size: 20px;
+   margin-left: 10vh;
+}
+#colors2{
+
+  bottom: 13vh;
+  left: 60vh;
+  max-width: 35vh;
+  display: block;
+  float: left;
+  margin-left: 10vh;
+}
+footer{
+  margin-bottom: 0;
+
+}

@@ -1,0 +1,27 @@
+body{
+  background-image: url("img/nicebg.gif");
+}
+#map{
+  color: black;
+  font-size: 3em;
+  margin-top: 15px;
+  margin-bottom: 65px;
+}
+#map li{
+  color: black;
+
+}
+#map a{
+  color: black;
+  text-decoration: none;
+
+}
+#map li ul{
+  font-size:0.75em;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#main-body{
+  margin-left: 150px;
+  padding-top: 150px;
+}

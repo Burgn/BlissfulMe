@@ -1,0 +1,74 @@
+
+*{
+  font-family: 'Indie Flower', cursive;
+}
+.clear{
+  clear:both;
+}
+body,html{
+  margin:0;
+  padding:0;
+}
+#bodybox{
+
+  width: auto;
+  height: 120vh;
+  max-width: 190vh;
+  background-size: cover;
+/*  display: block;*/
+  background-image: url("../img/treehead.jpg");
+
+  z-index: 0;
+  margin-bottom: 0;
+}
+.navbutt {
+  text-decoration: none;
+  color: white;
+}
+.navbutt:hover {
+  color: #65BCFF;
+
+}
+h1 {
+  z-index:2;
+  float:right;
+  margin-top: 53vh;
+}
+#daymtxt {
+  font-size: 34px;
+}
+
+#textright1 {
+  margin-right: 10vh;
+
+}
+#leftsidetext{
+  position:absolute;
+  z-index: 2;
+  margin-left: 50px;
+  margin-top: 35vh;
+
+}
+h2 {
+  font-size: 40px;
+}
+
+#opentext {
+  margin-top: 15px;
+  font-size: 26px;
+  line-height: 30px;
+}
+#tree-growing{
+  width: 300px;
+}
+
+#fkntree {
+  padding: 0;
+  position: absolute;
+  margin-left: 130vh;
+  margin-top: 67vh;
+  height: auto;
+  width: 200px;
+  z-index 2;
+  margin-bottom: 0;
+}

@@ -1,0 +1,59 @@
+body,html{
+  margin: 0;
+}
+#soich{
+  font-size: 1em;
+}
+
+#main-body{
+  margin: 0;
+  height: 210vh;
+  background-image: url("../img/blurred.jpg");
+  background-size: cover;
+}
+#box-body{
+  margin: 80px;
+  height: 153vh;
+  border: 2px solid;
+  background-image: url("../img/nicebg.gif");
+  text-align: justify;
+}
+h1{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 4em;
+  color: black;
+}
+img{
+  margin-right: 15px;
+  margin-left: 15px;
+  border-bottom: 150px;
+}
+h2{
+  font-size: 1.7em;
+  font-weight: 100;
+  margin: 20px;
+  text-decoration:underline;
+}
+
+p{
+  margin: 15px;
+  font-size: 1.3em;
+  text-align: justify;
+}
+#facts{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left:60vh;
+  font-size: 1.5em;
+}
+#facts a:hover{
+  color: #65BCFF;
+
+}
+#facts a{
+  text-decoration: none;
+  color: white;
+
+}

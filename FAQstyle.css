@@ -1,0 +1,77 @@
+
+body,html{
+  margin:0;
+  padding: 0;
+}
+
+*{
+  font-family: 'Indie Flower', cursive;
+}
+.clear{
+  clear:both;
+}
+
+h1{
+
+  padding-top: 50px;
+  margin-left:17px;
+  margin-right: 17px;
+  margin-bottom: 17px;
+  font-size: 5em;
+  text-align: center;
+
+  line-height: 20vh;
+
+
+}
+
+#question{
+  font-size: 1.7em;
+  font-weight: 2px;
+  margin:17px;
+}
+#answer
+{
+  margin: 17px;
+  font-size: 1.2em;
+}
+#body-box{
+  background-image: url("../img/nicebg.gif");
+  border: 2px solid rgb(53, 94, 165);
+  margin: 0 17px;
+
+}
+#main-body
+{
+  background-image: url("../img/blurred.jpg");
+  height: 135vh;
+}
+#askq{
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100px;
+  color: rgb(247, 250, 255);
+}
+#page{
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(247, 250, 255);
+}
+#feedback{
+  margin: 35px;
+}
+#disclaimer
+{
+  height: 40vh;
+  background-color: grey;
+  border: 2px solid;
+}
+#page a{
+  text-decoration: none;
+  color: white;
+}
+#page a:hover{
+  color: #65BCFF;
+
+}

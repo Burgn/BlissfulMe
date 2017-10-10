@@ -1,0 +1,50 @@
+*{
+  font-family: 'Indie Flower', cursive;
+}
+
+
+#heading{
+margin-top: 0;
+left: 10vh;
+height: 120vh;
+text-align: center;
+background:#c8daf7;
+
+}
+
+#headingPP{
+position:relative;
+top: 10vh ;
+text-align: center;
+font-size: 80px;
+font-weight: bolder;
+
+}
+
+#parentPP {
+  position: relative;
+  top: 18vh;
+  left: 0vh;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+
+#bodytextPP {
+  font-family: "Times New Roman";
+  width: 100vh;
+  height: 80vh;
+  text-align: justify;
+  display: inline;
+  margin-left:190px;
+
+}
+#rectbox{
+  margin-left: 80px;
+}
+
+#lockpic{
+/*  position:relative;*/
+
+}

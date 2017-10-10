@@ -1,0 +1,91 @@
+
+*{
+font-family: 'Indie Flower', cursive;
+}
+
+.clear{
+  clear:both;
+}
+#bodybox{
+  display: block;
+  align-items: center;
+  background-image: url("../img/blurred.jpg");
+  height: 140vh;
+  width: 100%;
+  border: 1px solid;
+  margin:auto;
+}
+
+#boxName{
+  margin-right: 400px;
+  margin-left: 630px;
+}
+
+#box2 {
+  margin-left: 630px;
+  margin-right: 400px;
+  margin-top: 15px;
+}
+
+#box3 {
+  margin-right: 400px;
+  margin-left: 595px;
+  margin-top: 15px;
+}
+
+#box4 {
+  width:50%;
+  margin-right: 400px;
+  margin-left: 570px;
+  margin-top: 15px;
+}
+
+h1{
+
+  text-align:center;
+  margin-top: 150px;
+  font-size: 3em;
+}
+
+
+#form1{
+  display: block;
+  align-items: center;
+  margin-top: 50px;
+
+
+}
+#button{
+  margin-top: 15px;
+  margin-left: 675px;
+  border: 2px solid;
+  background: "light grey";
+  margin-bottom: 10px;
+}
+#fname{
+  border:2px solid;
+
+
+}
+#lname{
+  border:2px solid;
+}
+#email{
+  border:2px solid;
+}
+#qbox{
+  border:2px solid;
+}
+
+#word{
+  margin: 0;
+  font-size: 1em;
+}
+
+
+#disclaimer
+{
+  height: 40vh;
+  background-color: grey;
+  border: 2px solid;
+}
