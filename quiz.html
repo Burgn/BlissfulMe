@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel = "stylesheet" href = "css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel = "stylesheet" href = "css/navBar.css">
+  <link rel = "stylesheet" href = "css/quizCss.css">
+  <script src= "js/quizjava.js"></script>
+</head>
+<body>
+
+      <nav id = "menu-box">
+        <ul id = "menu">
+          <a href = "Homepage1.html"><li>Home
+            <ul>
+              <li><a href = "quiz.html">Happiness Calculator</li></a>
+            </ul>
+          </li>
+        </a>
+
+          <li>Facts
+            <ul>
+              <li><a href = "aussieIndex.html">Australian Index</li></a>
+
+              <li><a href = "GNH.html">GNH</li></a>
+              <li><a href = "glossary.html">Glossary</li></a>
+            </ul>
+          </li>
+
+          <li>Your Say<a href = "feedback.html">
+            <ul>
+              <li>Feedback</li>
+            </a>
+            <a href = "FAQ.html">
+              <li>FAQ<li>
+              </a>
+            </ul>
+          </li>
+          <a href = "#"><li>Login
+            <ul>
+              <li>Your Tree</li>
+              <li>Register</li>
+            </ul>
+          </li>
+        </a>
+        </ul>
+
+        <a href = "Homepage1.html"><img id = "logodotcom" src ="img/toplogowordsnewb.png"
+              alt = " mini logo here" /></a>
+
+          <div id = "box1">
+            <p id= "soich"> Search </p>
+            <input id ="search" type= "text" size = "25"><a href = "#"><img id = "image" src = "img/green.jpeg" style="width:20px;height:20px;"></a>
+          </div>
+      </nav>
+
+
+    <h1>Your Happiness Calculator</h1>
+	<!--someonehelp me out with the calculation process plz omg.. I just need a select botton that adds up all the'values'-->
+	 <form id = "happinesscal">
+       <p id = "head"> <strong>Answer the questions below to see how happy you are.</strong> </p>
+     <section id = "text-box">
+	 <p> 1. I feel that life is very rewarding </p>
+	 <div class = "radio">
+		<label>
+			<input type="radio" name="quiz1" id="q1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz1" id="q2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz1" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz1" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz1" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 2. I am optimistic about the future </p>
+
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz2" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz2" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz2" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz2" id="4" value="4">
+			Agree
+		</label>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz2" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+	</div>	<p> 3. I find most things amusing</p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz3" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz3" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz3" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz3" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz3" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+		<p> 4. I am always comitted and involved </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz4" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz4" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz4" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz4" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz4" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+		<p> 5. I think that world is a good place </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz5" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz5" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz5" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz5" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz5" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+		<p> 6. Life is good </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz6" id="1" valuE="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz6" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz6" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz6" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz6" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 7. I laugh a lot </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz7" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz7" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz7" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz7" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz7" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 8. I am well satisfied with most aspects of my life </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz8" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz8" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz8" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz8" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz8" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 9. I think I look attractive </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz9" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz9" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz9" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz9" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz9" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+<p> 10. There is a gap between I want to do and what I have done </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz10" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz10" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz10" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz10" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz10" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 11. I am very happy  </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz11" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz11" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz11" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz11" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz11" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 12. I often experience joy and elation </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz12" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz12" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz12" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz12" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz12" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 13. I have a particular sense of meaning and purpose in my life </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz13" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz13" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz13" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz13" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz13" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 14. I feel like I have a great deal of energy </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz14" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz14" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz14" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz14" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz4" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 15. I feel healthy </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz15" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz15" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz15" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz15" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz15" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+	<p> 16. I can think of a lot of happy memories of the past </p>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz16" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz16" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz16" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz16" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz16" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+	<p> 17. I often share my feelings and thoughts with others </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz17" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz17" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz17" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz17" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz17" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+
+	<p> 18. I often have fun with others </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz18" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz18" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz18" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz18" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz18" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+	<p> 19. I find doing kind things for others extremely rewarding</p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz19" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz19" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz19" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz19" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz19" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+	<p> 20. I find using my skills and strengths to achieve personal goals extremely fulfilling </p>
+	 <div class= "radio">
+		<label>
+			<input type="radio" name="quiz20" id="1" value="1">
+			Strongly Disagree
+		</label>
+	</div>
+    <div class= "radio">
+		<label>
+			<input type="radio" name="quiz20" id="2" value="2">
+			Disagree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz20" id="3" value="3">
+			I  don't  know
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz20" id="4" value="4">
+			Agree
+		</label>
+	</div>
+	<div class= "radio">
+		<label>
+			<input type="radio" name="quiz20" id="5" value="5">
+			Strongly Agree
+		</label>
+	</div>
+  <button id= "button" onclick="result()">Submit</button>
+</section>
+	</form>
+
+  <footer>
+
+        <div class = "wrapper">
+          <nav>
+            <ul>
+              <li><a href = "Homepage1.html">Home</a></li>
+              <li><a href = "FAQ.html">FAQ</a></li>
+              <li><a href = "feedback.html">Feedback</a></li>
+              <li><a href = "aboutus.html">About Us</a></li>
+              <li><a href = "PrivacyPolicy.html">Privacy</a></li>
+              <li><a href = "sitemap.html">Sitemap</a></li>
+              <li><a href = "styleGuide.html">Style Guide</a></li>
+              <div id = "copywrite">Copyright (c) 2017 Copyright Holder All Rights Reserved.</div>
+            </ul>
+        </nav>
+      </div>
+  </footer>
+
+  
+
+  </body>
+</html>
